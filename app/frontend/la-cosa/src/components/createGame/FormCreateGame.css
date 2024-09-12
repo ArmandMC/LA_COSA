@@ -1,0 +1,35 @@
+.form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 4px 6px 17px 0px rgba(255, 255, 255, 0.52);
+  justify-content: center;
+  background-color: #000000; /* Black background color */
+  position: relative;
+}
+.form input:focus {
+  outline: 1px solid #8B0000; 
+}
+
+.form input {
+  outline: 1px solid #8B0000; 
+}
+.test {
+  font-family: 'KCWaxMuseum-Drip', sans-serif; 
+  color: #ffffff; /* White text color */
+  font-size: 35px; 
+}
+.form h3 {
+  font-family: 'KCWaxMuseum', sans-serif; 
+  color: #ffffff; /* White text color */
+  font-size: 20px; 
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

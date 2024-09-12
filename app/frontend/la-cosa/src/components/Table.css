@@ -1,0 +1,47 @@
+/* Table.css */
+
+.table {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(5, 5, 75);
+  /* Table background color */
+  border-radius: 50%;
+  /* Rounded table shape */
+  position: relative;
+  
+  margin: 0 auto;
+  /* Center the table horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  box-shadow: 0 0 15px 0 rgba(115, 86, 45, 0.8);
+  background-image: url('../images/mesa2.jpg');
+  margin-bottom:110px;
+}
+
+.player {
+  position: absolute;
+  width: 50px;
+  /* Adjust the width of the player circle */
+  height: 50px;
+  /* Adjust the height of the player circle */
+  /* Adjust the background color of the player circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-name {
+  /* Center the text inside the circle */
+  color: #333;
+  /* Adjust the text color */
+  font-size: 15px;
+  /* Adjust the font size */
+  font-weight: bold;
+  /* Make the player name bold */
+}
+
+.css-1pqm26d-MuiAvatar-img{
+  transform: rotate(90deg);
+}

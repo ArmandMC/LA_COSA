@@ -1,0 +1,140 @@
+/* CSS styles for Table Component */
+.pageGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'KCWaxMuseum-Drip', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.player-turn {
+  display: flex;
+  font-family: 'KCWaxMuseum-Drip', sans-serif;
+  font-size: 40px;
+  color: #8B0000;
+  text-shadow: 2px 4px 4px #000;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  margin-top: 10%;
+}
+
+
+.pageGameTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* .pageGameTable {
+  margin-top: 0%;
+}
+ */
+
+.cardDeck {
+  display: flex;
+  justify-content: center; /* Align Horizontally */
+  align-items: center; /* Align Vertically */
+  /* Adjust the maximum width and padding for the deck container */
+  max-width: 200px; /* Adjust the value to your desired width */
+  padding: 100px;
+  position: absolute;
+  left: 0; /* Position on the left */
+  top: 50%; /* Position in the middle vertically */
+  transform: translateY(-50%);
+}
+
+.cardDeck img {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  margin-top: 10%;
+  max-width: 100%;
+  max-height: 2000px; /* Adjust the value to your desired height */
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+
+
+.playerCards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.playerCards h3{
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #fff; /* Adjust the text color as needed */
+  text-shadow: 2px 4px 4px #000;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-top: -3%;
+}
+
+.ExchangableCards {
+  display: flex;
+  justify-content: center;
+  /* Center the card row horizontally */ /*a partir de aca agregue*/
+  flex-direction: row; /* Allow cards to wrap to the next line */
+}
+
+.ExchangableCards h1 {
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #ffff; /* Adjust the text color as needed */
+  text-shadow: 2px 4px 4px #000;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-top: -6%;
+}
+
+.card-enlarged {
+    transform: scale(1.2);
+    /* Increase the size by 20% */
+    z-index: 1;
+    /* Ensure the selected card appears on top of others */
+}
+
+.SelectPlayOrDiscardOption h2{
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-shadow: 2px 4px 4px #000;
+
+}
+
+.SelectPlayOrDiscardOption{
+  display: flex;
+  justify-content: center; /* Align Horizontally */
+  align-items: center; /* Align Vertically */
+  position: absolute;
+  left: 5%; /* Position on the left */
+  top: 85%; /* Position in the middle vertically */
+  transform: translateY(-50%);
+}
+
+.SelectPlayerButtons{
+  display: flex;
+  justify-content: center; /* Align Horizontally */
+  align-items: center; /* Align Vertically */
+  position: absolute;
+  left: 5%; /* Position on the left */
+  top: 85%; /* Position in the middle vertically */
+  transform: translateY(-50%);
+}
+
+.SelectPlayerButtons h2{
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-shadow: 2px 4px 4px #000;
+}

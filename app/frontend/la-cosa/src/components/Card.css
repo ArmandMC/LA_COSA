@@ -1,0 +1,31 @@
+
+.card {
+  margin: 10px;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.card:hover{
+  width:11%;
+  margin:0px;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.8);
+  }
+
+/* .card-type {
+  font-weight: bold;
+  word-wrap: break-word;
+  color: #ffff;
+  font-family: 'KCWaxMuseum', sans-serif;
+
+} */
+
+.card-number {
+  font-size: 18px;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}

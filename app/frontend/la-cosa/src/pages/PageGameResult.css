@@ -1,0 +1,63 @@
+/* PageGameResult.css */
+
+/* Estilos para centrar el componente */
+.gameWinners {
+    background: #fff;
+    padding: 150px;
+    border: 1px solid #0126f7;
+    border-radius: 80px;
+    max-width: 400px;
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto en el componente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .header{
+    font-family: 'KCWaxMuseum', sans-serif;
+    font-size: 50px;
+    color: #800080;
+    margin-bottom: 10px;
+    text-shadow: 2px 4px 4px #000;
+
+  }
+  .gameWinners h2 {
+    font-family: 'KCWaxMuseum', sans-serif;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .gameWinners ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gameWinners li {
+    margin-bottom: 5px;
+  }
+
+.custom-button {
+  background-color: #006904;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'KCWaxMuseum', sans-serif;
+  text-shadow: 2px 4px 4px #000;
+
+  margin: 20px 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: -110px;
+  right: 220px;
+}
+  
+  /* Add more CSS rules as needed to style your component */
+  

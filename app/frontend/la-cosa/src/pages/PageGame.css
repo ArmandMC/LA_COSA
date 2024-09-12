@@ -1,0 +1,115 @@
+body{
+  margin-bottom:0;
+
+}
+.pageGame {
+  font-family: 'KCWaxMuseum-Drip', sans-serif;
+  color: #800080;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+.pageGameTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.containerGame {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cardDeck img {
+  width: 12%;
+  display: flex;
+  position: absolute;
+  left: 20px;
+  margin-top: 10%;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.8);
+  cursor:pointer;
+}
+
+.playerCards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content:center;
+}
+
+.playerCards h3{
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 15px; /* Adjust the font size as needed */
+  color: #fff; /* Adjust the text color as needed */
+  text-shadow: 2px 4px 4px #000;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-top: -1%;
+}
+
+
+.card-enlarged {
+    transform: scale(1.1);
+    /* Increase the size by 10% */
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 1);
+    /* Ensure the selected card appears on top of others */
+}
+
+.SelectPlayOrDiscardOption h2{
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-shadow: 2px 4px 4px #000;
+
+}
+
+.SelectPlayOrDiscardOption{
+  display: flex;
+  justify-content: center; /* Align Horizontally */
+  align-items: center; /* Align Vertically */
+  position: absolute;
+  left: 5%; /* Position on the left */
+  top: 85%; /* Position in the middle vertically */
+  transform: translateY(-50%);
+}
+
+.SelectPlayerButtons{
+  display: flex;
+  justify-content: center; /* Align Horizontally */
+  align-items: center; /* Align Vertically */
+  position: absolute;
+  left: 5%; /* Position on the left */
+  top: 85%; /* Position in the middle vertically */
+  transform: translateY(-50%);
+}
+
+.SelectPlayerButtons h2{
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-shadow: 2px 4px 4px #000;
+}
+
+/* Agregar estilo para hacer que el texto sea blanco */
+.showResponseCards h2 {
+  font-family: 'KCWaxMuseum', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-shadow: 2px 4px 4px #000;
+}
+
+.MuiPaper-root{
+  font-family: 'KCWaxMuseum', sans-serif !important;
+  margin: 0 auto !important;
+  min-width: 0px !important;
+  background-color:#A62515 !important;
+  font-size: 13px !important;
+  border-radius:20px !important;
+  line-height: 15px !important;
+}

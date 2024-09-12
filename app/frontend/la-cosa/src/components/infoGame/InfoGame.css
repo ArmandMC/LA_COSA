@@ -1,0 +1,14 @@
+.player-turn {
+    font-family: 'KCWaxMuseum-Drip', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    text-shadow: 2px 4px 4px #000;
+    letter-spacing: 2px;
+    margin-top:10px;
+    width:20%;
+    background-color:#A62515;
+    border-radius:20px;
+    padding:10px;
+    display:inline-block;
+  }
+  

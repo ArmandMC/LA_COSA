@@ -1,0 +1,21 @@
+.pageJoinForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente los botones en el mismo nivel */
+    width: 100%;
+}
+
+.containerJoin {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}

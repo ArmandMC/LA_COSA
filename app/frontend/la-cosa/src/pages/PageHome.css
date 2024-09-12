@@ -1,0 +1,49 @@
+body {
+  background-image: url('../images/fondo4.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 700%;
+  text-align: center;
+  color: #800080; 
+  text-shadow: 2px 4px 4px #000;
+  font-family: 'KCWaxMuseum-Drip', sans-serif; /* Use your custom font or fall back to a system font */
+  letter-spacing: 2px;
+}
+
+.containerHome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus {
+  outline: none !important;
+}
+
+.MuiDataGrid-root .Mui-selected {
+  background-color: #ff9999 !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-row:hover {
+  cursor: pointer;  
+}
+
+
+@font-face {
+  font-family: 'KCWaxMuseum-Drip'; /* Font name you want to use */
+  src: url('../images/KCWaxMuseum-Drip.otf') format('opentype'); /* Path to the font file */
+}
+
+@font-face {
+  font-family: 'KCWaxMuseum'; /* Font name you want to use */
+  src: url('../images/KCWaxMuseum.otf') format('opentype'); /* Path to the font file */
+}

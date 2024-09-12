@@ -1,0 +1,18 @@
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Set the height to viewport height for full-screen effect */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px; /* Add some spacing between the header and cards */
+  }
+
+  /* .container {
+    display: flex;
+    justify-content: center; /* Center the card row horizontally */
+    

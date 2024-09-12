@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.pageForm {
+    height: 100%;
+    width: 100%;
+}
+
+.headerGame {
+    margin-top: 20px;
+    font-size: 100px;
+    text-align: center;
+    color: #800080; 
+    text-shadow: 2px 4px 4px #000;
+    font-family: 'KCWaxMuseum-Drip', sans-serif; /* Use your custom font or fall back to a system font */
+    letter-spacing: 2px;
+}

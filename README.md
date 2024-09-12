@@ -1,1 +1,2 @@
-# LA_COSA
+# LaCosa
+The ultimate card game
